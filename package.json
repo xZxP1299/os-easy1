@@ -1,0 +1,16 @@
+{
+  "name": "angular-demo",
+  "private": true,
+  "version": "0.0.1",
+  "description": "",
+  "repository": "",
+  "license": "MIT",
+  "scripts": {
+    "dev":"vite --open"
+  },
+  "dependencies": {
+    "angular": "^1.7.5",
+    "angular-route": "^1.7.5",
+    "vite": "^3.0.0"
+  }
+}

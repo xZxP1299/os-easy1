@@ -1,0 +1,82 @@
+<div class="pages11">
+    <div class="windows">
+
+        <span class="iconfont icon-gengxin" style="font-size: 100px; margin-left:30px"></span>
+        <div class="windows-head">
+
+            <div class="windows-head-item">
+                <h4>你使用的是最新版本</h4>
+                <p>上次检查时间:今天,</p>
+            </div>
+        </div>
+        <div class="windows-head-button">
+            <button class="my-button-bule">检查更新</button>
+        </div>
+
+
+
+    </div>
+
+    <span>更多选项</span>
+
+    <div class="windows-item">
+
+        <div class="windows-item-one">
+
+            <span class="iconfont icon-24gl-pause2 box"></span>
+            <div class="windows-items-two">
+                <h5>暂停更新</h5>
+            </div>
+
+        </div>
+
+        <div class="windows-item-three">
+            <select>
+                <option ng-repeat="x in optionList">{{x}}</option>
+            </select>
+        </div>
+
+    </div>
+
+    <div class="windows-item" >
+
+        <div class="windows-item-one">
+
+            <span class="iconfont icon-shijian box"></span>
+            <div class="windows-items-two">
+                <h5>更新历史记录</h5>
+            </div>
+
+        </div>
+
+        <div class="windows-item-three">
+            <span class="iconfont icon-dayuhao box"></span>
+        </div>
+
+    </div>
+
+    <div class="windows-item" ng-repeat="x in windowsList">
+
+        <div class="windows-item-one">
+
+            <span class="{{x.class}}"></span>
+            <div class="windows-items-hp">
+                <h5>{{x.p1}}</h5>
+                <p>{{x.p2}}</p>
+            </div>
+
+        </div>
+
+        <div class="windows-item-three">
+            <span class="iconfont icon-dayuhao box"></span>
+        </div>
+     
+    </div>
+    
+    <div class="windows-bottom" ng-repeat="x in bottomList">
+          <span class="{{x.class}}"></span>
+          <a>{{x.a}}</a>
+    </div>
+    
+  
+</div>

@@ -1,0 +1,74 @@
+.pages11{
+    display: flex;
+    flex-direction: column;
+}
+.my-button-bule{
+    border: 1px solid #404450;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: #0068c0;
+    height: 26px;
+}
+
+.windows {
+     display: flex;
+     flex-direction: row;
+}
+
+.windows-head-button{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.window {
+    font-size: 100px;
+}
+
+.windows-head-item{
+    margin-left:50px ;
+}
+
+.windows-head-item p{
+    font-size: 0.8em;
+}
+
+
+.windows-item{
+    display: flex;
+    height: 70px;
+    background: white;
+    border: 0px solid;
+    border-radius: 4px;
+    margin-right: 50px;
+    margin: 8px;
+}
+
+.windows-item-one{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px ;
+}
+.windows-items-two{
+    display: flex;
+    align-items: center;
+    padding-left:10px ;
+}
+
+.windows-item-three{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 15px;
+    border-radius: 5px;
+    background-color: white ;
+}
+
+.windows-items-hp{
+    display: flex;
+    align-items: center;
+}
